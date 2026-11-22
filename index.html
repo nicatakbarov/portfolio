@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nijat Akbarov · Product Leader</title>
+<meta name="description" content="Nijat Akbarov — product leader with 5+ years in product and 3 years in QA. Co-founder of Testavi (AI QA testing) and founder of MoveStart (AI fitness app).">
+<link rel="canonical" href="https://nijat-akbarov.vercel.app/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nijat Akbarov · Product Leader">
+<meta property="og:description" content="Nijat Akbarov — product leader with 5+ years in product and 3 years in QA. Co-founder of Testavi (AI QA testing) and founder of MoveStart (AI fitness app).">
+<meta property="og:url" content="https://nijat-akbarov.vercel.app/">
+<meta property="og:image" content="https://nijat-akbarov.vercel.app/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://nijat-akbarov.vercel.app/og.jpg">
+<style>html{scroll-behavior:smooth}body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one narrow column; a short intro, then two product case studies stacked, each a text column beside its own screenshots. */
+:root {
+  --paper: #f3f4f1;
+  --surface: #ffffff;
+  --ink: #15171a;
+  --muted: #5d636b;
+  --line: #d9dcd6;
+  --ms: #9bc417;        /* MoveStart lime, darkened for light paper */
+  --ms-ink: #15171a;
+  --tv: #1f7a45;        /* Testavi run-button green */
+  --todo: #fff3c4;
+  --todo-ink: #6b5200;
+  --display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111214; --surface: #1a1c1f; --ink: #eef0ec; --muted: #9aa0a8; --line: #2c2f33;
+    --ms: #c6f432; --ms-ink: #111214; --tv: #3fbf74; --todo: #3a3216; --todo-ink: #f3d87a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111214; --surface: #1a1c1f; --ink: #eef0ec; --muted: #9aa0a8; --line: #2c2f33;
+  --ms: #c6f432; --ms-ink: #111214; --tv: #3fbf74; --todo: #3a3216; --todo-ink: #f3d87a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--paper); color: var(--ink);
+  font: 16px/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0;
+}
+.wrap { max-width: 1040px; margin: 0 auto; }
+a { color: inherit; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 4px; }
+.todo { background: var(--todo); color: var(--todo-ink); padding: 0 .3em; border-radius: 3px; font-style: normal; }
+
+/* top bar */
+.bar { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-block: 24px; font: 500 13px/1 var(--mono); color: var(--muted); }
+.bar nav { display: flex; gap: 20px; flex-wrap: wrap; }
+.bar a { text-decoration: none; }
+.bar a:hover { color: var(--ink); }
+
+/* intro */
+.intro { display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: end; padding-block: 56px 48px; border-bottom: 1px solid var(--line); }
+.intro > div { min-width: 0; }
+.intro h1 {
+  font: 800 clamp(44px, 8vw, 88px)/.92 var(--display); font-stretch: 78%;
+  letter-spacing: -.01em; text-transform: uppercase; margin: 0 0 24px; text-wrap: balance;
+}
+.intro p.lede { font-size: clamp(18px, 2.2vw, 21px); line-height: 1.5; max-width: 34em; margin: 0; }
+.intro img.me { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; filter: grayscale(1); }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 28px; margin: 28px 0 0; padding: 0; list-style: none; font: 500 13px/1.4 var(--mono); color: var(--muted); }
+.facts b { color: var(--ink); font-weight: 500; }
+.links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border: 1px solid var(--ink); border-radius: 999px; font: 500 14px/1 var(--body); text-decoration: none; background: transparent; color: var(--ink); cursor: pointer; }
+.btn.solid { background: var(--ink); color: var(--paper); }
+.btn:hover { transform: translateY(-1px); }
+
+/* case studies */
+.case { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 48px; padding-block: 64px; border-bottom: 1px solid var(--line); }
+.case .tag { font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); display: flex; gap: 10px; align-items: center; margin-bottom: 18px; }
+.case .tag i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.case h2 { display: flex; align-items: center; gap: 14px; margin: 0 0 6px; font: 800 44px/1 var(--display); font-stretch: 85%; text-transform: uppercase; }
+.case h2 img { width: 44px; height: 44px; border-radius: 10px; }
+.case .role { font: 500 14px/1.4 var(--mono); color: var(--muted); margin: 0 0 22px; }
+.case .pitch { font-size: 19px; line-height: 1.45; margin: 0 0 22px; text-wrap: pretty; }
+.case h3 { font: 600 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 28px 0 10px; }
+.case ul { margin: 0; padding-left: 1.1em; }
+.case li { margin-bottom: 6px; }
+.stack { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.stack li { font: 400 12px/1 var(--mono); padding: 6px 9px; border: 1px solid var(--line); border-radius: 6px; margin: 0; background: var(--surface); }
+.case .links { margin-top: 30px; }
+
+.ms .tag i { background: var(--ms); }
+.ms .btn.solid { background: var(--ms); border-color: var(--ms); color: var(--ms-ink); }
+.tv .tag i { background: var(--tv); }
+.tv .btn.solid { background: var(--tv); border-color: var(--tv); color: #fff; }
+
+/* visuals */
+.ms-visual { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.ms-visual figure { margin: 0; }
+.ms-visual img { display: block; width: 100%; height: auto; border-radius: 14px; background: #ededed; }
+.phones { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.phones figcaption, .browser figcaption { font: 400 12px/1.4 var(--mono); color: var(--muted); margin-top: 10px; text-align: center; }
+.browser { margin: 0; align-self: center; }
+.browser .chrome { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--surface); box-shadow: 0 24px 48px -28px rgba(0,0,0,.35); }
+.browser .chrome .dots { display: flex; gap: 6px; padding: 10px 12px; border-bottom: 1px solid var(--line); font: 400 11px/1 var(--mono); color: var(--muted); align-items: center; }
+.browser .chrome .dots span { width: 9px; height: 9px; border-radius: 50%; background: var(--line); }
+.browser .chrome .dots em { font-style: normal; margin-left: 10px; }
+.browser img { display: block; width: 100%; }
+.tlogo { height: 26px; width: auto; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tlogo { filter: invert(1); } }
+:root[data-theme="dark"] .tlogo { filter: invert(1); }
+
+/* experience */
+.exp { padding-block: 64px; border-bottom: 1px solid var(--line); }
+.exp h2 { font: 800 44px/1 var(--display); font-stretch: 85%; text-transform: uppercase; margin: 0 0 28px; }
+.timeline { list-style: none; margin: 0 0 28px; padding: 0; display: grid; gap: 0; }
+.timeline li { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 24px; padding-block: 18px; border-top: 1px solid var(--line); }
+.timeline .when { font: 400 13px/1.6 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.timeline .what { color: var(--muted); font-size: 14px; }
+.timeline .what::before { content: "· "; }
+.timeline p { margin: 6px 0 0; color: var(--muted); max-width: 62ch; }
+@media (max-width: 640px) { .timeline li { grid-template-columns: minmax(0, 1fr); gap: 4px; } }
+
+/* contact */
+.contact { padding-block: 64px 80px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: end; }
+.contact h2 { font: 800 clamp(34px, 6vw, 56px)/.95 var(--display); font-stretch: 80%; text-transform: uppercase; margin: 0 0 12px; }
+.contact p { margin: 0; color: var(--muted); max-width: 36em; }
+.mail { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.mail code { font: 500 15px/1 var(--mono); padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); user-select: all; }
+footer { font: 400 12px/1 var(--mono); color: var(--muted); padding-block: 0 32px; }
+
+@media (max-width: 820px) {
+  .case { grid-template-columns: minmax(0, 1fr); gap: 36px; padding-block: 48px; }
+  .tv .browser { order: 2; }
+  .intro { grid-template-columns: minmax(0, 1fr); }
+  .intro img.me { order: -1; width: 88px; height: 88px; }
+  .contact { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 480px) {
+  .phones { gap: 8px; }
+  .ms-visual img { border-radius: 10px; }
+  .bar nav { gap: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { .btn:hover { transform: none; } }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header class="bar">
+    <span>Nijat Akbarov</span>
+    <nav aria-label="Sections">
+      <a href="#testavi">Testavi</a>
+      <a href="#movestart">MoveStart</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <div>
+      <h1>I build products end&nbsp;to&nbsp;end</h1>
+      <p class="lede">Product leader with 5+ years in product, from PM to CPO, and 3 years in QA before that. I build AI products hands-on and work backwards from the customer: I co-founded Testavi, an AI QA platform for web apps, and founded MoveStart, an AI fitness app on the App Store and Google Play.</p>
+      <ul class="facts">
+        <li><b>5+ yrs</b> product</li>
+        <li><b>3 yrs</b> QA</li>
+        <li>Based in <b>Berlin</b></li>
+        <li><b>AZ · TR · RU · EN · DE</b></li>
+      </ul>
+      <div class="links">
+        <a class="btn solid" href="https://www.linkedin.com/in/nijat-akbarov" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="Nijat_Akbarov_CV.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+        <a class="btn" href="https://github.com/nicatakbarov" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <img class="me" src="assets/nijat.jpg" alt="Nijat Akbarov">
+  </section>
+
+  <section class="case tv" id="testavi">
+    <div>
+      <div class="tag"><i></i>B2B SaaS · Web · Berlin · since Oct 2025</div>
+      <h2><img class="tlogo" src="assets/testavi-logo.png" alt="Testavi"></h2>
+      <p class="role">Co-founder and Product Lead</p>
+      <p class="pitch">Teams describe a user journey in plain English. Visual AI agents run it in a real browser and report what broke, with a video of every step.</p>
+      <h3>Why I started it</h3>
+      <p>I spent three years in QA, from writing test cases for 200+ client projects to leading the QA team at Buglance, a crowdsourced testing platform with 100K+ testers. The same problem kept coming back: scripted end-to-end tests break every time the UI changes, and most teams never get full coverage of checkout, sign-up and subscription flows.</p>
+      <h3>My role</h3>
+      <ul>
+        <li>Turned years of manual and lead QA work into how the product thinks: which flows to test, what to check after each step, how a failure is reported</li>
+        <li>Defined the core AI agent features: action reasoning, outcome validation, video replays and SSO login</li>
+        <li>Researched AI testing use cases and analyzed competitors (Playwright, Cypress, QA Wolf) to set positioning</li>
+        <li>Brought test results into customer workflows through APIs for Slack, Jira, CI/CD and email</li>
+        <li>Ran A/B tests to validate feature and messaging decisions</li>
+      </ul>
+      <div class="links">
+        <a class="btn solid" href="https://testavi.com" target="_blank" rel="noopener">testavi.com ↗</a>
+        <a class="btn" href="https://www.linkedin.com/company/testavi/" target="_blank" rel="noopener">Company page</a>
+      </div>
+    </div>
+    <figure class="browser">
+      <div class="chrome">
+        <div class="dots"><span></span><span></span><span></span><em>app.testavi.com</em></div>
+        <img src="assets/testavi.jpg" loading="lazy" decoding="async" alt="Testavi test editor: steps written in plain English">
+      </div>
+      <figcaption>A test written as plain-English steps</figcaption>
+    </figure>
+  </section>
+
+  <section class="case ms" id="movestart">
+    <div>
+      <div class="tag"><i></i>Consumer app · iOS · Android · 2026</div>
+      <h2><img src="assets/movestart-icon.png" alt="">MoveStart</h2>
+      <p class="role">Founder and product builder · team of 2 · since Aug 2026</p>
+      <p class="pitch">An AI coach that builds a personal 4-week workout plan around your goal, schedule and equipment, then adjusts it as you train.</p>
+      <h3>What I built</h3>
+      <ul>
+        <li>AI plan generator and a chat coach that edits the plan with your approval</li>
+        <li>Meetups: find a training partner and join group workouts in your city, with AI moderation of every post. Berlin rollout planned</li>
+        <li>Workout player with 1,700+ exercise videos</li>
+        <li>Calorie tracking from a photo of your meal</li>
+        <li>Apple Health and Health Connect sync, in 3 languages</li>
+      </ul>
+      <h3>Results</h3>
+      <ul>
+        <li>Live on the App Store, and on Google Play since 19&nbsp;November&nbsp;2026</li>
+        <li>120+ organic downloads from social media posts, with no paid ads</li>
+        <li>Built with AI-assisted development: I own product, iOS and backend, a second developer builds Android</li>
+      </ul>
+      <h3>Stack</h3>
+      <ul class="stack">
+        <li>React</li><li>Capacitor</li><li>Kotlin</li><li>Supabase</li><li>Postgres</li><li>Claude API</li><li>Cloudflare R2</li><li>PostHog</li>
+      </ul>
+      <div class="links">
+        <a class="btn solid" href="https://movestart.app" target="_blank" rel="noopener">movestart.app ↗</a>
+        <a class="btn" href="https://apps.apple.com/us/app/movestart/id6770120858" target="_blank" rel="noopener">App Store</a>
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.nicatakbarov.fitstart" target="_blank" rel="noopener">Google Play</a>
+      </div>
+    </div>
+    <div class="ms-visual">
+      <figure class="hand"><img src="assets/movestart-hand.jpg" loading="lazy" decoding="async" alt="MoveStart home screen with today's workout, held in a hand"></figure>
+      <div class="phones">
+        <figure><img src="assets/workout.jpg" loading="lazy" decoding="async" alt="Workout screen with warm-up and exercise list"><figcaption>Workout</figcaption></figure>
+        <figure><img src="assets/food.jpg" loading="lazy" decoding="async" alt="Food tracker with calorie balance and macros"><figcaption>Food tracker</figcaption></figure>
+        <figure><img src="assets/progress.jpg" loading="lazy" decoding="async" alt="Progress screen with weight trend and weekly activity"><figcaption>Progress</figcaption></figure>
+        <figure><img src="assets/meetups.jpg" loading="lazy" decoding="async" alt="Workout meetups in Baku: discover and join group workouts"><figcaption>Meetups</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="exp" id="experience">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li><span class="when">Oct 2025 – now</span><div><b>Co-founder and Product Lead</b>, Testavi <span class="what">AI QA platform, Berlin</span><p>Visual AI agents that test web app user flows from plain-English instructions. Owns discovery, positioning and the core agent features.</p></div></li>
+      <li><span class="when">Apr 2020 – Nov 2025</span><div><b>Product Manager → Product Owner → CPO</b>, NetTech LLC <span class="what">web and mobile agency, 51–200 people</span><p>Led the product team as CPO: product strategy, KPIs and priorities across the client portfolio, Scrum delivery with design, engineering and QA.</p></div></li>
+      <li><span class="when">Jan 2021 – May 2022</span><div><b>Product Owner</b>, iboxapp <span class="what">e-commerce platform</span><p>User research and discovery, roadmap and backlog in Jira, A/B tests and Power BI analysis.</p></div></li>
+      <li><span class="when">Jul 2019 – Jul 2020</span><div><b>QA Team Lead and Product Manager</b>, Buglance <span class="what">crowdsourced testing, 100K+ testers</span><p>Test strategy, test plans and test automation for web and mobile; structured bug tracking; mentored junior testers.</p></div></li>
+      <li><span class="when">Jan 2017 – Jun 2019</span><div><b>QA Tester</b>, Buglance and Competo <p>Wrote and ran test cases for 200+ client projects across web and mobile.</p></div></li>
+    </ol>
+    <a class="btn" href="Nijat_Akbarov_CV.pdf" target="_blank" rel="noopener">Full CV (PDF)</a>
+  </section>
+
+  <section class="contact" id="contact">
+    <div>
+      <h2>Let's talk</h2>
+      <p>Open to product roles where I can own a problem from research to release.</p>
+    </div>
+    <div class="mail">
+      <code id="email">nicat.akbarov@gmail.com</code>
+      <button class="btn" id="copy" type="button">Copy</button>
+    </div>
+  </section>
+  <footer>© 2026 Nijat Akbarov</footer>
+</div>
+
+<script>
+document.getElementById('copy').addEventListener('click', function () {
+  var btn = this, text = document.getElementById('email').textContent;
+  function done() { btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = 'Copy'; }, 1600); }
+  function fallback() { var r = document.createRange(); r.selectNodeContents(document.getElementById('email')); var s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+  try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
+});
+</script>
+
+</body>
+</html>
