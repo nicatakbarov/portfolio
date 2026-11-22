@@ -150,7 +150,16 @@ footer { font: 400 12px/1 var(--mono); color: var(--muted); padding-block: 0 32p
 @media (max-width: 480px) {
   .phones { gap: 8px; }
   .ms-visual img { border-radius: 10px; }
-  .bar nav { gap: 14px; }
+  .bar { font-size: 12px; }
+  .bar span { white-space: nowrap; }
+  .bar nav { gap: 14px; flex-wrap: nowrap; }
+  .bar nav .hide-sm { display: none; }
+}
+@media (max-width: 360px) {
+  .bar { font-size: 11px; gap: 10px; }
+  .bar nav { gap: 10px; }
+  .intro h1 { font-size: 38px; padding-right: 72px; }
+  .intro img.me { width: 60px; height: 60px; }
 }
 @media (prefers-reduced-motion: reduce) { .btn:hover { transform: none; } }
 </style>
@@ -163,7 +172,7 @@ footer { font: 400 12px/1 var(--mono); color: var(--muted); padding-block: 0 32p
     <nav aria-label="Sections">
       <a href="#testavi">Testavi</a>
       <a href="#movestart">MoveStart</a>
-      <a href="#experience">Experience</a>
+      <a class="hide-sm" href="#experience">Experience</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
