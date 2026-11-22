@@ -1,6 +1,6 @@
 # Nijat Akbarov · Portfolio
 
-Live: **[nijat-akbarov.vercel.app](https://nijatakbarov.com)**
+Live: **[nijatakbarov.com](https://nijatakbarov.com)**
 
 A one-page portfolio for product roles. It covers two products I build:
 
