@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.nijatakbarov.com" }],
+      "destination": "https://nijatakbarov.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "nijat-akbarov.vercel.app" }],
+      "destination": "https://nijatakbarov.com/:path*",
+      "permanent": true
+    }
+  ]
+}
